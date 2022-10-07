@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "appConfig1": {
+      "ignored": "true",
+      "type": "appConfig.azure"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ssdlab2dbserver2/databases/SSDLab2db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection"
+    }
+  }
+}
